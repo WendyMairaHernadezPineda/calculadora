@@ -23,5 +23,5 @@ public class CalculadoraController {
 		calcu.Calcular();
 		modelo.addAttribute("calcu", calcu);
 		return "/index";
-		}
+	}
 }
